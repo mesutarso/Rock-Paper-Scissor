@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+main{
+    background-color: rgb(31, 29, 29);
+    height: 100vh;
+    position: relative;
+
+}
+i{
+    font-size:4rem;
+}
+
+.score__section__heading{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.player__score{
+    font-size: 25px;
+}
+.sub-title{
+    font-size: 30px;
+    font-weight: 600;
+}
+.isGameover{
+    background-color:rgb(31, 29, 29);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    transition: all .3s ease-in-out;
+}
+.active{
+    color: black;
+    background: rgb(229, 245, 9);
+    padding: 10px;
+}
+.active_computer{
+    color: rgb(229, 245, 9);
+    background: black;
+    padding: 10px; 
+}
+.showElement{
+    display:flex;
+}
